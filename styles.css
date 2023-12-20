@@ -1,99 +1,101 @@
-body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-  font-family: sans-serif;
-  padding: 20px;
-}
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px;
+      background: url('./beans.jpeg') center center fixed no-repeat;
+      background-size: cover;
+      background-color: #fff;
+      color: brown;
+    }
 
-h1 {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
-}
+    .container {
+      background-color: rgb(219, 194, 161);
+      border-radius: 20px;
+    }
 
-h2 {
-  font-size: 30px;
-}
+    h1 {
+      font-size: 48px;
+      margin: 0 0 15px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
-.established {
-  font-style: italic;
-}
+    .established {
+      font-style: italic;
+      font-size: 18px;
+    }
 
-h1,
-h2,
-p {
-  text-align: center;
-}
+    main {
+      margin-top: -80px;
+    }
 
-.menu {
-  width: 80%;
-  background-color: burlywood;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  max-width: 500px;
-}
+    .menu {
+      width: 80%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgb(219, 194, 161);
+      border-radius: 20px;
+    }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+    hr {
+      height: 2px;
+      background-color: brown;
+      border-color: brown;
+    }
 
-hr {
-  height: 2px;
-  background-color: brown;
-  border-color: brown;
-}
+    .bottom-line {
+      margin-top: 25px;
+    }
 
-.bottom-line {
-  margin-top: 25px;
-}
+    .item p {
+      display: inline-block;
+      margin: 5px 0;
+      font-size: 18px;
+    }
 
-h1,
-h2 {
-  font-family: Impact, serif;
-}
+    .flavor,
+    .dessert {
+      text-align: left;
+      width: 75%;
+    }
 
-.item p {
-  display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 18px;
-}
+    .price {
+      text-align: center;
+    }
 
-.flavor,
-.dessert {
-  text-align: left;
-  width: 75%;
-}
+    footer {
+      font-size: 14px;
+    }
 
-.price {
-  text-align: right;
-  width: 25%;
-}
+    .address {
+      margin-bottom: 24px;
+      font-size: 18px;
+    }
 
-/* FOOTER */
+    .sweets {
+      margin-top: 10px;
+    }
 
-footer {
-  font-size: 14px;
-}
+    footer p a {
+      color: brown;
+      text-decoration: none;
+      font-size: 1.4rem;
+    }
 
-.address {
-  margin-bottom: 5px;
-}
+    footer p a:hover {
+      text-decoration: underline;
+      font-size: 1.6rem;
+      transition: ease-in-out 0.3s;
+      color: #b2640b;
+    }
 
-a {
-  color: black;
-}
+    menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
 
-a:visited {
-  color: black;
-}
-
-a:hover {
-  color: brown;
-}
-
-a:active {
-  color: brown;
-}
+    img {
+      width: 200px;
+      height: 200px;
+    }

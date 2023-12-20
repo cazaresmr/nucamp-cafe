@@ -1,0 +1,149 @@
+body {
+  background: url('./beans.jpeg') center center no-repeat;
+  background-size: cover;
+  background-color: rgb(23, 20, 20);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: brown;
+  color: rgb(219, 194, 161);
+  text-align: center;
+  padding: 1rem;
+  /* border-radius: 1rem; */
+}
+hr {
+  border: 1px solid brown;
+  width: 80%;
+}
+
+main {
+  background-color: rgb(219, 194, 161);
+  color: brown;
+  text-align: center;
+  padding: 1rem;
+  /* border-radius: 1rem; */
+}
+
+footer {
+  background-color: brown;
+  color: rgb(219, 194, 161);
+  text-align: center;
+  padding: 1rem;
+  /* border-radius: 1rem; */
+}
+
+h1,
+.coffee {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.established {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.line-top {
+  border-top: #8b4513 1px solid;
+  padding: 1rem;
+}
+
+.line-bottom {
+  border-bottom: #8b4513 1px solid;
+  padding: 1rem;
+}
+
+.menu {
+  width: 80%;
+  height: 100%;
+  margin: 40px auto 40px auto;
+  padding: 2rem 4rem;
+  background-color: rgb(219, 194, 161);
+  /* border-radius: 1rem; */
+}
+
+.item p {
+  display: inline-block;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+/* Existing style for h3 */
+h3 a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: brown;
+
+}
+
+/* Hover state for h3 */
+h3 a:hover {
+  font-size: 1.3rem;
+  /* Adjust the font size as needed */
+  color: #8b4513;
+  /* Adjust the color as needed */
+  cursor: pointer;
+  text-decoration: none;
+  transition: ease-in-out 0.3s;
+}
+
+/* .price {
+  text-align: center;
+} */
+
+.address {
+  font-size: 1.4rem;
+}
+
+.sweets {
+  margin-top: 20px;
+}
+
+footer p a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+  font-size: 1.5rem;
+  transition: ease-in-out 0.3s;
+  color: #b2640b;
+  cursor: pointer;
+}
+
+img {
+  width: 50px;
+}
+
+.modal-header {
+  background-color: rgb(219, 194, 161);
+  color: brown;
+}
+
+.modal-footer {
+  background-color: rgb(219, 194, 161);
+  color: brown;
+}
+
+/* Social Media Icon  */
+footer a i {
+  color: brown;
+  font-size: 2rem;
+}
+
+/* Social Media Icon Hover */
+footer a i:hover {
+  color: #8b4513;
+  cursor: pointer;
+  font-size: 2.1rem;
+  transition: ease-in-out 0.3s;
+}

@@ -158,7 +158,19 @@ footer a i:hover {
   transition: ease-in-out 0.3s;
 }
 
-.modal-body p {
-  color: var(--primary-background);
+.modal-body {
+  background-color: brown;
   font-size: 1.2rem;
+}
+
+.modal-body p {
+  color: rgb(219, 194, 161);
+  font-size: 1.2rem;
+}
+
+button.btn.btn-secondary, button.close, span {
+  background-color: brown;
+  border-color: brown;
+  color: rgb(219, 194, 161);
+  border: none;
 }

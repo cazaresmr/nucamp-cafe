@@ -15,17 +15,20 @@
 
 <body class="d-flex justify-content-center align-items-center vh-100">
   <div class="container">
-    <!-- Start Header  -->
+
+    <!-- Header -->
     <div class="row bg-info d-flex align-items-center">
       <header class="text-center p-2 line-bottom">
         <h1 class="text-light pt-5">NUCAMP COFFEE HOUSE</h1>
         <p class="established text-light">Brewing Since 2017</p>
       </header>
     </div>
-    <!-- End Header  -->
-    <!-- Start Main  -->
+
+    <!-- Main -->
     <div class="row bg-info d-flex align-items-center">
       <main>
+
+        <!-- Coffee Menu -->
         <div class="menu">
           <div class="row">
             <div class="col-12">
@@ -37,7 +40,9 @@
               <img src="images/cup.jpeg" alt="Coffee Cup" class="img-fluid img-thumbnail mb-3 pic">
             </div>
           </div>
+          <!-- Coffee Items -->
           <div class="row menu-items">
+            <!-- Coffee Item 1 -->
             <div class="col-md-6">
               <section class="item">
                 <h3 class="flavor"><a href="#" data-bs-toggle="modal" data-bs-target="#beverageModal">Feature Flavor:
@@ -46,6 +51,9 @@
                 <p class="price">3.00</p>
               </section>
             </div>
+            <!-- Coffee Item 2 -->
+
+            <!-- ... (repeat for other items) ... -->
             <div class="col-md-6">
               <section class="item">
                 <h3 class="flavor">Caramel Macchiato</h3>
@@ -89,6 +97,8 @@
               </section>
             </div>
           </div>
+
+          <!-- Sweets Menu -->
           <div class="row">
             <div class="col-12">
               <h2 class="text-center mb-3 fw-bold sweets">Sweets</h2>
@@ -96,10 +106,11 @@
           </div>
           <div class="row">
             <div class="col-12 text-center">
-              <img src="images/sweet.png" alt="cup of coffee and plate with dessert"
+              <img src="images/sweet.png" alt="Cup of coffee and plate with dessert"
                 class="img-fluid rounded mb-3 pic sweets-pic">
             </div>
           </div>
+          <!-- Sweets Items -->
           <div class="row menu-items">
             <div class="col-md-6">
               <section class="item">
@@ -127,10 +138,11 @@
             </div>
           </div>
         </div>
+
       </main>
     </div>
-    <!-- End Main  -->
-    <!-- Start Footer  -->
+
+    <!-- Footer -->
     <div class="row bg-info d-flex align-items-center">
       <footer class="text-center d-flex flex-column justify-content-around align-items-center line-top">
         <p>
@@ -146,10 +158,10 @@
         <p class="mb-2 address text-light">123 Fullstack Lane, Bellevue, WA 98005</p>
       </footer>
     </div>
+
   </div>
 
-  <!-- End Footer  -->
-
+  <!-- Beverage Modal -->
   <div class="modal fade" id="beverageModal" tabindex="-1" role="dialog" aria-labelledby="beverageModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -161,7 +173,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <p>Delight your taste buds with our signature French Vanilla coffee...</p>
+          <p>Delight your taste buds with our signature French Vanilla coffee.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -169,6 +181,9 @@
       </div>
     </div>
   </div>
+
+
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

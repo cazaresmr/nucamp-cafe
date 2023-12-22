@@ -17,19 +17,21 @@ body {
   color: var(--text-color);
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 1.5rem;
-}
-
 header,
 main,
 footer {
   background-color: var(--primary-background);
   color: var(--text-color);
   text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1.5rem;
+  background-color: rgb(219, 194, 161);
+  color: brown;
 }
 
 h1,
@@ -49,12 +51,6 @@ footer p,
   height: 100%;
   /* margin: 40px auto; */
   background-color: var(--text-color);
-}
-
-main {
-  background-color: rgb(219, 194, 161);
-  color: brown;
-  text-align: center;
 }
 
 footer {

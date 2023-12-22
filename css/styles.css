@@ -8,13 +8,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: none;
 }
 
 body {
-  background: url('./beans.jpeg') center center no-repeat;
+  background: url("./beans.jpeg") center center no-repeat;
   background-size: cover;
   background-color: var(--primary-background);
   color: var(--text-color);
+}
+
+main {
+  /* min-height: 40vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header,
@@ -34,14 +42,13 @@ h3,
 footer p,
 .modal-header,
 .modal-footer {
-  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-family: "Georgia", "Times New Roman", Times, serif;
 }
 
 .menu {
   width: 80%;
   height: 100%;
   margin: 40px auto;
-  padding: 2rem 4rem;
   background-color: var(--text-color);
 }
 
@@ -58,16 +65,12 @@ footer {
 }
 
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .coffee,
 .sweets {
-  padding-bottom: 10px;
-}
-
-.sweets {
-  margin: 50px 0 0;
+  margin: 10px 0 0;
 }
 
 .established {
@@ -81,14 +84,9 @@ h1 {
   margin: 0 0 16px;
 }
 
-.sweets-pic {
-  padding-top: 0;
-}
-
 .line-top,
 .line-bottom {
   border: #8b4513 1px solid;
-  padding: 1rem;
 }
 
 .item p {
@@ -106,7 +104,7 @@ h1 {
 }
 
 h3 a {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: brown;
 }
 
@@ -124,7 +122,6 @@ h3 a:hover {
 
 footer p {
   margin: 0;
-  padding: 5px;
   font-size: 1rem;
 }
 
@@ -168,7 +165,9 @@ footer a i:hover {
   font-size: 1.2rem;
 }
 
-button.btn.btn-secondary, button.close, span {
+button.btn.btn-secondary,
+button.close,
+span {
   background-color: brown;
   border-color: brown;
   color: rgb(219, 194, 161);

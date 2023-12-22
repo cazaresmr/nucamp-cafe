@@ -29,26 +29,22 @@
   <body class="d-flex justify-content-center align-items-center vh-100">
     <div class="container">
       <!-- Header -->
-      <div class="row bg-info d-flex align-items-center">
-        <header class="text-center p-2 line-bottom">
-          <h1 class="text-light pt-1">NUCAMP COFFEE HOUSE</h1>
-          <p class="established text-light mb-0">Brewing Since 2017</p>
-        </header>
-      </div>
+      <header class="row d-flex align-items-center text-center">
+        <h1 class="text-light">NUCAMP COFFEE HOUSE</h1>
+        <p class="established text-light">Brewing Since 2017</p>
+      </header>
 
       <!-- Main -->
-      <div class="row bg-info d-flex align-items-center">
-        <main>
+        <main class="row d-flex align-items-center mx-auto>
           <div class="row">
             <div class="col-12">
-              <p class="mt-5 mb-0">Open Daily form 6 a.m. to midnight</p>
+              <p>Open Daily form 6 a.m. to midnight</p>
             </div>
-          </div>
           <!-- Coffee Menu -->
           <div class="menu">
             <div class="row">
               <div class="col-12">
-                <h2 class="text-center fw-bold coffee mb-5">Coffee</h2>
+                <h2 class="text-center fw-bold coffee">Coffee</h2>
               </div>
             </div>
             <div class="row">
@@ -56,13 +52,12 @@
                 <img
                   src="images/cup.jpeg"
                   alt="Coffee Cup"
-                  class="img-fluid img-thumbnail mb-3 pic"
+                  class="img-fluid img-thumbnail pic"
                 />
               </div>
             </div>
             <!-- Coffee Items -->
             <div class="row menu-items">
-              <!-- Coffee Item 1 -->
               <div class="col-md-6">
                 <section class="item">
                   <h3 class="flavor">
@@ -76,9 +71,6 @@
                   <p class="price">3.00</p>
                 </section>
               </div>
-              <!-- Coffee Item 2 -->
-
-              <!-- ... (repeat for other items) ... -->
               <div class="col-md-6">
                 <section class="item">
                   <h3 class="flavor">Caramel Macchiato</h3>
@@ -126,7 +118,7 @@
             <!-- Sweets Menu -->
             <div class="row">
               <div class="col-12">
-                <h2 class="text-center mb-3 fw-bold sweets">Sweets</h2>
+                <h2 class="text-center fw-bold sweets">Sweets</h2>
               </div>
             </div>
             <div class="row">
@@ -134,7 +126,7 @@
                 <img
                   src="images/sweet.png"
                   alt="Cup of coffee and plate with dessert"
-                  class="img-fluid rounded mb-3 pic sweets-pic"
+                  class="img-fluid img-thumbnail pic"
                 />
               </div>
             </div>
@@ -167,14 +159,11 @@
             </div>
           </div>
         </main>
-      </div>
-
       <!-- Footer -->
-      <div class="row bg-info d-flex align-items-center">
         <footer
-          class="text-center d-flex flex-column justify-content-around align-items-center line-top"
+          class="row d-flex flex-column justify-content-around align-items-center"
         >
-          <p class="mt-0">
+          <p>
             <a
               href="tel:+1-888-803-3965"
               target="_blank"
@@ -182,21 +171,20 @@
               >Call us @ 1-888-803-3963</a
             >
           </p>
-          <p class="mb-0">
+          <p>
             <a
               href="https://www.instagram.com/nucampcodingbootcamp/"
               rel="noopener noreferrer"
               target="_blank"
-              class="text-decoration-none d-flex align-items-center"
+              class="text-decoration-none d-flex justify-content-center align-items-center text-light"
             >
-              <i class="fa-brands fa-instagram text-light mx-auto"></i>
+              <i class="fa-brands fa-instagram text-light"></i>
             </a>
           </p>
-          <p class="mb-0 address text-light">
+          <p class="address text-light">
             123 Fullstack Lane, Bellevue, WA 98005
           </p>
         </footer>
-      </div>
     </div>
 
     <!-- Beverage Modal -->
@@ -238,7 +226,7 @@
         </div>
       </div>
     </div>
-
+  </div>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
